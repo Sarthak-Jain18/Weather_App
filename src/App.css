@@ -1,0 +1,155 @@
+/* HEADING */
+.Heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.Heading h1 {
+    margin-bottom: 0.5rem;
+}
+
+.Heading p {
+    margin: 0;
+    color: rgb(100, 100, 100);
+}
+
+/* INPUT */
+.Input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.takeInput {
+    margin: 1rem;
+    width: 70%;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 0.01rem solid grey;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.inputBtn {
+    margin: 1rem;
+    width: 10%;
+}
+
+.inputBtn:hover {
+    opacity: 0.8;
+}
+
+.inputBtn button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* CONTENT */
+.Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContentHead {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.mapCard {
+    margin: 0.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.Map {
+    width: 20rem;
+    height: 20rem;
+    padding: 0.5rem;
+}
+
+.mapCor {
+    color: rgb(100, 100, 100);
+    padding: 0.5rem;
+}
+
+.contentCard {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    background-color: inherit;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 23rem;
+}
+
+.locCard,
+.temperatureCard,
+.humidityCard {
+    background-color: white;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.loc {
+    padding-left: 0.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.lat-long {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    color: rgb(100, 100, 100);
+}
+
+.tempDeg,
+.humPer {
+    color: rgb(37, 99, 235);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-left: 0.5rem;
+}
+
+.desc {
+    display: flex;
+    background-color: rgba(114, 146, 184, 0.337);
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+}
+
+.descContent {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.descImg img {
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+}
