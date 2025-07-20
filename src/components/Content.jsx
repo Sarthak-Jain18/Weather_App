@@ -11,7 +11,7 @@ export default function Content({ location }) {
     useEffect(() => {
         const fetchCoordinates = async () => {
             try {
-                const response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=${1}&appid=${API_KEY}`);
+                const response = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=${1}&appid=${API_KEY}`);
                 const data = await response.json();
                 if (data.length > 0) {
                     setCoordinates({ lat: data[0].lat, lon: data[0].lon });
